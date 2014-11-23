@@ -1,0 +1,25 @@
+{
+	"name": "pnoi-cli",
+	"description": "Command-line interface for PN:OI",
+	"version": "0.0.1",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://pnoi.net",
+	"keywords": ["pnoi", "aggregate", "cli", "json"],
+	"repository": {
+	"type": "git",
+		"url": "git://github.com/pnoi/cli.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": {
+		"pnoi": "bin/pnoi"
+	},
+	"dependencies": {
+		"commander": "2.1.0",
+		"pnoi": "*",
+		"prompt": "0.2.12"
+	}
+}
