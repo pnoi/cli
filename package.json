@@ -1,7 +1,7 @@
 {
 	"name": "pnoi-cli",
 	"description": "Command-line interface for PN:OI",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"author": "kdi",
 	"contributors": [
 		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
